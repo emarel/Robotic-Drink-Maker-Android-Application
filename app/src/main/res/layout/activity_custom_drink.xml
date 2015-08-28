@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background = "@drawable/customdrink">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"  android:stretchColumns="*"
+        >
+
+    <!-- Row 1 with single column -->
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customa"
+                android:textSize="25sp"
+                android:text="Vodka:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner1"
+                android:popupBackground="#d3d3d3"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customb"
+                android:textSize="25sp"
+                android:text="Gin:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:popupBackground="#d3d3d3"
+                android:entries="@array/number_arrays"
+
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customc"
+                android:textSize="25sp"
+                android:text="Rum:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customd"
+                android:textSize="25sp"
+                android:text="Tequila:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+            <TableRow
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/custome"
+                    android:textSize="25sp"
+                    android:text="Midori:"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    />
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="184dp"
+                    android:layout_height="fill_parent"
+                    android:entries="@array/number_arrays"
+                    android:popupBackground="#d3d3d3"
+                    />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customf"
+                android:textSize="25sp"
+                android:text="Malibu:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customg"
+                android:textSize="25sp"
+                android:text="Curacao:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customh"
+                android:textSize="25sp"
+                android:text="Sour Mix:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customi"
+                android:textSize="25sp"
+                android:text="Sprite:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customj"
+                android:textSize="25sp"
+                android:text="Orange:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customk"
+                android:textSize="25sp"
+                android:text="Cranberry:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner11"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/customl"
+                android:textSize="25sp"
+                android:text="Pineapple:"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+                android:id="@+id/spinner12"
+                android:layout_width="184dp"
+                android:layout_height="fill_parent"
+                android:entries="@array/number_arrays"
+                android:popupBackground="#d3d3d3"
+                />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+           <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Reset"/>
+
+            <Button
+                android:id="@+id/itemMiddle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Make Drink"
+                android:layout_centerHorizontal="true"
+                android:layout_column="1" />
+
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>

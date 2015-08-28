@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.michael.roboticdrinkmaker" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AMF"
+            android:label="@string/title_activity_amf" >
+        </activity>
+        <activity
+            android:name=".test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".CS10_vocab"
+            android:label="@string/title_activity_cs10_vocab" >
+        </activity>
+        <activity
+            android:name=".drink_list"
+            android:label="@string/title_activity_drink_list" >
+        </activity>
+        <activity
+            android:name=".ListViewExampleActivity"
+            android:label="@string/title_activity_list_view_example" >
+        </activity>
+        <activity
+            android:name=".CustomDrink"
+            android:label="@string/title_activity_custom_drink" >
+        </activity>
+        <activity
+            android:name=".CustomOnItemSelectedListener"
+            android:label="@string/title_activity_custom_on_item_selected_listener" >
+        </activity>
+        <activity
+            android:name=".BayBreeze"
+            android:label="@string/title_activity_bay_breeze" >
+        </activity>
+        <activity
+            android:name=".CaribouLou"
+            android:label="@string/title_activity_caribou_lou" >
+        </activity>
+        <activity
+            android:name=".BlueSex"
+            android:label="@string/title_activity_blue_sex" >
+        </activity>
+        <activity
+            android:name=".CaribbeanMist"
+            android:label="@string/title_activity_caribbean_mist" >
+        </activity>
+        <activity
+            android:name=".MalibuMadness"
+            android:label="@string/title_activity_malibu_madness" >
+        </activity>
+        <activity
+            android:name=".FruitFusion"
+            android:label="@string/title_activity_fruit_fusion" >
+        </activity>
+        <activity
+            android:name=".BoomBoomPow"
+            android:label="@string/title_activity_boom_boom_pow" >
+        </activity>
+        <activity
+            android:name=".TheBlackout"
+            android:label="@string/title_activity_the_blackout" >
+        </activity>
+        <activity
+            android:name=".MidoriSour"
+            android:label="@string/title_activity_midori_sour" >
+        </activity>
+        <activity
+            android:name=".OrangeSunrise"
+            android:label="@string/title_activity_orange_sunrise" >
+        </activity>
+        <activity
+            android:name=".VodkaSprite"
+            android:label="@string/title_activity_vodka_sprite" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+</manifest>
